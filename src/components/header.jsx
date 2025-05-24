@@ -36,23 +36,23 @@ const LiveConference = styled.a`
     z-index: 1000;
 `;
 
-export const Header = ({title, paragraph}) => {
+export const Header = ({ title, paragraph }) => {
   return (
     <HeaderContainer id="home">
       <Intro>
         <div className="container">
           <div className="intro-text">
-            <LogoImage src={process.env.PUBLIC_URL + "/img/logos/logo.png"} alt="logo"/>
+            <LogoImage src={process.env.PUBLIC_URL + "/img/logos/logo.png"} alt="logo" />
             <h1 style={{
               fontSize: "3em",
-              color: "black",
+              color: "rgb(51, 51, 51)",
               padding: "40px",
             }}>
               {title ? title : "Loading"}
             </h1>
             <p style={{
               fontSize: "1em",
-              color: "black",
+              color: "rgb(51, 51, 51)",
               fontWeight: "bolder"
             }}>{paragraph ? paragraph : "Loading"}</p>
             <a
@@ -61,18 +61,16 @@ export const Header = ({title, paragraph}) => {
               rel="noopener noreferrer"
             >
               <img width={100} src={process.env.PUBLIC_URL + "/img/logos/bitdefender_logo.png"}
-                   alt="bitdefender_logo"></img>
+                alt="bitdefender_logo"></img>
             </a>
-
             <a
               href="https://www.hotelunirea.ro/ro/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img width={100} src={process.env.PUBLIC_URL + "/img/logos/hotel_unirea_icon.jpg"}
-                   alt="bitdefender_logo"></img>
+                alt="bitdefender_logo"></img>
             </a>
-
             <LiveConference
               href="https://uaic.webex.com/uaic/j.php?MTID=mf6f55be9cf297eba70a1a0dcdbfe1ef9"
               target="_blank"

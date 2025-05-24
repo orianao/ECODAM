@@ -36,5 +36,11 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://events.info.uaic.ro/summer-school"
+  "homepage": "https://events.info.uaic.ro/summer-school",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.1.0",
+    "typescript-eslint": "^8.32.1"
+  }
 }

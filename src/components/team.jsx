@@ -123,7 +123,7 @@ const MembersContainer = styled.div`
 
 const MemberCard = ({member}) => {
   return (
-    <Card className="col-md-4">
+    <Card className="col-md-5">
       <ProfileImageContainer>
         <ProfileImage
           src={member.image || "https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"}

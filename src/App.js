@@ -23,8 +23,9 @@ function App() {
       <Navigation />
       <Header title={<><div>Doctoral Summer School on</div>
       <div>Evolutionary Computing,</div>
-      <div>Optimization and Data Mining</div
-      ><div>20 years Aniversary - 18th Edition</div></>} paragraph={"JUNE 15-18, 2025"} />
+      <div>Optimization and Data Mining</div>
+      <div style={{fontWeight: "bold"}}>20 years Aniversary</div>
+      <div style={{fontSize: "large", fontWeight: "bold", fontStyle: "italic"}}>18th Edition</div></>} paragraph={"JUNE 16-19, 2025"} />
       <UsersPresenter id={"speakers"} title={"Speakers"} data={speakers} isToBeSorted />
       <Program />
       <UsersPresenter id={"participants"} title={"Participants"} data={participants} isToBeSorted />

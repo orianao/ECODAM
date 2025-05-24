@@ -19,7 +19,7 @@ const Title = styled.h2`
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 800;
-    color: rgb(51, 51, 51);
+    color: rgb(51, 51, 51) !important;
     text-align: center;
     position: relative;
     display: inline-block;
@@ -38,17 +38,15 @@ const Title = styled.h2`
 
 export const Editions = () => {
     return (
-        <div>
-            <Section id="editions">
-                <Title>ECODAM Previous Editions</Title>
-                <br/>
-                <br/>
-                <Container>
-                    <a href="https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/" target="_blank" rel="noopener noreferrer">
-                        <img src={process.env.PUBLIC_URL + "/img/logos/logo_full.jpg"} alt="ECODAM 2023" />
-                    </a>
-                </Container>
-            </Section>
-        </div>
+        <Section id="editions">
+            <Title>ECODAM Previous Editions</Title>
+            <br/>
+            <br/>
+            <Container>
+                <a href="https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/" target="_blank" rel="noopener noreferrer">
+                    <img src={process.env.PUBLIC_URL + "/img/logos/logo_full.jpg"} alt="ECODAM 2023" />
+                </a>
+            </Container>
+        </Section>
     );
 };
