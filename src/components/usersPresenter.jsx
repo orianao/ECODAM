@@ -89,7 +89,7 @@ const ResponsiveContainer = styled.div`
 `;
 
 const TeamContainer = styled.div`
-    margin-top: 50px;
+    // margin-top: 50px;
     padding: 100px 20px;
     background: #f8f8f8;
 `;

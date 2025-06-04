@@ -1,37 +1,16 @@
 export const participants = [
-  //University of Cambridge
-  {
-    firstName: "Friedrich Maximilian",
-    lastName: "Weberling",
-    university: "University of Cambridge"
-  },
-  {
-    firstName: "Rafael",
-    lastName: "Kollyfas",
-    university: "University of Cambridge"
-  },
-  {
-    firstName: "Eleanor",
-    lastName: "Williams",
-    university: "University of Cambridge"
-  },
-  {
-    firstName: "Miguel",
-    lastName: "Larraz",
-    university: "University of Cambridge"
-  },
 
   // Alexandru Ioan Cuza University of Iași
-  {
-    firstName: "Cristian",
-    lastName: "Bulgaru",
-    university: "University of Cambridge"
-  },
-  {
-    firstName: "Serban",
-    lastName: "Doncean",
-    university: "Alexandru Ioan Cuza University of Iași; University of Cambridge"
-  },
+  // {
+  //   firstName: "Cristian",
+  //   lastName: "Bulgaru",
+  //   university: "University of Cambridge"
+  // },
+  // {
+  //   firstName: "Serban",
+  //   lastName: "Doncean",
+  //   university: "Alexandru Ioan Cuza University of Iași; University of Cambridge"
+  // },
   // {
   //   firstName: "Cristian",
   //   lastName: "Simionescu",
@@ -67,11 +46,11 @@ export const participants = [
   //   lastName: "Mărculeț",
   //   university: "Alexandru Ioan Cuza University of Iași"
   // },
-  {
-    firstName: "Andi",
-    lastName: "Munteanu",
-    university: "Alexandru Ioan Cuza University of Iași; University of Cambridge"
-  },
+  // {
+  //   firstName: "Andi",
+  //   lastName: "Munteanu",
+  //   university: "Alexandru Ioan Cuza University of Iași; University of Cambridge"
+  // },
   {
     firstName: "Oriana-Maria",
     lastName: "Onicescu",
@@ -119,16 +98,16 @@ export const participants = [
   },
 
   // // Babeș-Bolyai University
-  // {
-  //   firstName: "Claudia-Ioana",
-  //   lastName: "Coste",
-  //   university: "Babeș-Bolyai University"
-  // },
-  // {
-  //   firstName: "Ioan",
-  //   lastName: "Sima",
-  //   university: "Babeș-Bolyai University"
-  // },
+  {
+    firstName: "Ioana",
+    lastName: "Chelaru",
+    university: "Babeș-Bolyai University"
+  },
+  {
+    firstName: "Gergely",
+    lastName: "Mali Imre",
+    university: "Babeș-Bolyai University"
+  },
   // {
   //   firstName: "Raluca Diana",
   //   lastName: "Chis",

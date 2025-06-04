@@ -77,10 +77,10 @@ const SponsorTitle = styled.p`
 
 export const Sponsors = () => {
   return (
-    <SponsorSection id="sponsor">
+    <SponsorSection id="sponsorship">
       <Container>
         <SectionTitle>
-          <Title>Sponsor</Title>
+          <Title>Sponsorship</Title>
         </SectionTitle>
         <Card>
           <a

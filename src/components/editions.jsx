@@ -43,8 +43,13 @@ export const Editions = () => {
             <br/>
             <br/>
             <Container>
+                <a href="https://events.info.uaic.ro/summer-school/2024/" target="_blank" rel="noopener noreferrer">
+                    ECODAM 2024
+                </a>
+            </Container>
+            <Container>
                 <a href="https://profs.info.uaic.ro/vlad.radulescu/summerschool/public/" target="_blank" rel="noopener noreferrer">
-                    <img src={process.env.PUBLIC_URL + "/img/logos/logo_full.jpg"} alt="ECODAM 2023" />
+                    ECODAM 2006 - 2023
                 </a>
             </Container>
         </Section>

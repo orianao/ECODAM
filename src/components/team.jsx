@@ -41,13 +41,6 @@ const Name = styled.h4`
     color: #333;
 `;
 
-const Role = styled.p`
-    text-align: center;
-    font-size: 14px;
-    line-height: 24px;
-    color: #666;
-    margin: 0 !important;
-`;
 
 const School = styled.p`
     text-align: center;
@@ -132,7 +125,6 @@ const MemberCard = ({member}) => {
         />
       </ProfileImageContainer>
       <Name>{member.firstName} {member.lastName}</Name>
-      <Role className="text-muted">{member.role}</Role>
       <School className="text-muted">{member.school}</School>
     </Card>
   );

@@ -92,12 +92,6 @@ export const Contact = () => {
             </ContactItem>
             <ContactItem>
               <ContactLabel>
-                <i className="fa fa-phone"></i> Phone
-              </ContactLabel>
-              <ContactText>(+40) 232 201 490</ContactText>
-            </ContactItem>
-            <ContactItem>
-              <ContactLabel>
                 <i className="fa fa-envelope-o"></i> Email
               </ContactLabel>
               <ContactText>summer-school@info.uaic.ro</ContactText>

@@ -26,7 +26,7 @@ export const Navigation = () => {
             <a href="#home">
                 <img style={{marginRight: '10px'}} width={100} src={process.env.PUBLIC_URL + "/img/logos/logo_full.jpg"} alt="logo"></img>
             </a>
-            <a
+            {/* <a
               href="https://www.uaic.ro/"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,7 +39,7 @@ export const Navigation = () => {
               rel="noopener noreferrer"
             >
                 <img width={30} src={process.env.PUBLIC_URL + "/img/logos/fii_logo.png"} alt="logo"></img>
-            </a>
+            </a> */}
         </div>{" "}
         </div>
 
@@ -51,6 +51,11 @@ export const Navigation = () => {
             <li>
               <a href="#home" className="page-scroll">
                 Home
+              </a>
+            </li>
+            <li>
+              <a href="#vision" className="page-scroll">
+                Vision
               </a>
             </li>
             <li>
@@ -69,8 +74,8 @@ export const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href="#sponsor" className="page-scroll">
-                Sponsor
+              <a href="#sponsorship" className="page-scroll">
+                Sponsorship
               </a>
             </li>
             <li>
@@ -80,7 +85,7 @@ export const Navigation = () => {
             </li>
             <li>
               <a href="#editions" className="page-scroll">
-                Previous Editions
+                Editions
               </a>
             </li>
             {/* <li> */}
@@ -89,7 +94,7 @@ export const Navigation = () => {
             {/*  </a>*/}
             {/*</li>*/}
             <li>
-              <a href="#editions" className="page-scroll">
+              <a href="#contact" className="page-scroll">
                 Contact
               </a>
             </li>

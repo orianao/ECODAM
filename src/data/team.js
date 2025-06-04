@@ -49,9 +49,9 @@ export const organizers = [
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
   {
-    image: "",
-    firstName: "Lucian",
-    lastName: "Gâdioi",
+    image: "https://profs.info.uaic.ro/diana.trandabat/images/just_me.JPG",
+    firstName: "Diana",
+    lastName: "Trandabăț",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
@@ -59,6 +59,13 @@ export const organizers = [
     image: "",
     firstName: "Eugen",
     lastName: "Croitoru",
+    role: "Organizer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },
+  {
+    image: "",
+    firstName: "Lucian",
+    lastName: "Gâdioi",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
@@ -75,7 +82,7 @@ export const volunteers = [
   {
     image: process.env.PUBLIC_URL + "/img/team/andreea_ionita.png",
     firstName: "Andreea",
-    lastName: "Ionita",
+    lastName: "Ioniță",
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
@@ -86,14 +93,6 @@ export const volunteers = [
     role: "Organizer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
-  {
-    // image: "https://media.licdn.com/dms/image/D4D03AQHKUg-0vdM-9w/profile-displayphoto-shrink_800_800/0/1676912445857?e=1721865600&v=beta&t=hMYy9GUGz4LXMNTgGvaMm4anGcnPmADkeE_dj6-wReg",
-    image: process.env.PUBLIC_URL + "/img/team/george_stoica.jpg",
-    firstName: "George",
-    lastName: "Stoica",
-    role: "Volunteer",
-    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
-  },  
   {
     // image: "https://media.licdn.com/dms/image/D4D03AQHKUg-0vdM-9w/profile-displayphoto-shrink_800_800/0/1676912445857?e=1721865600&v=beta&t=hMYy9GUGz4LXMNTgGvaMm4anGcnPmADkeE_dj6-wReg",
     image: process.env.PUBLIC_URL + "/img/team/ramona_albert.jpg",
@@ -109,4 +108,20 @@ export const volunteers = [
     role: "Volunteer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },
+  {
+    // image: "https://media.licdn.com/dms/image/D4D03AQHKUg-0vdM-9w/profile-displayphoto-shrink_800_800/0/1676912445857?e=1721865600&v=beta&t=hMYy9GUGz4LXMNTgGvaMm4anGcnPmADkeE_dj6-wReg",
+    image: process.env.PUBLIC_URL + "/img/team/george_stoica.jpg",
+    firstName: "George",
+    lastName: "Stoica",
+    role: "Volunteer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },  
+  {
+    // image: "https://media.licdn.com/dms/image/D4D03AQHKUg-0vdM-9w/profile-displayphoto-shrink_800_800/0/1676912445857?e=1721865600&v=beta&t=hMYy9GUGz4LXMNTgGvaMm4anGcnPmADkeE_dj6-wReg",
+    image: "",
+    firstName: "Silviu",
+    lastName: "Vitel",
+    role: "Volunteer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },  
 ]

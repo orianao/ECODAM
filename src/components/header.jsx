@@ -10,12 +10,12 @@ const HeaderContainer = styled.header`
 const Intro = styled.div`
     position: relative;
     text-align: center;
-    padding: 40px 0;
+    padding: 10px 0;
 `;
 
 const LogoImage = styled.img`
     width: 600px;
-    
+    margin-top: -200px;
     @media (max-width: 768px) {
         width: 70%;
     }
@@ -39,7 +39,7 @@ const LiveConference = styled.a`
 export const Header = ({ title, paragraph }) => {
   return (
     <HeaderContainer id="home">
-      <Intro>
+      <Intro style={{ marginTop: "-50px" }}>
         <div className="container">
           <div className="intro-text">
             <LogoImage src={process.env.PUBLIC_URL + "/img/logos/logo.png"} alt="logo" />
@@ -60,6 +60,7 @@ export const Header = ({ title, paragraph }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
+            {/* Sponsorship */}
               <img width={100} src={process.env.PUBLIC_URL + "/img/logos/bitdefender_logo.png"}
                 alt="bitdefender_logo"></img>
             </a>
@@ -68,16 +69,17 @@ export const Header = ({ title, paragraph }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              {/* Hospitality partner */}
               <img width={100} src={process.env.PUBLIC_URL + "/img/logos/hotel_unirea_icon.jpg"}
-                alt="bitdefender_logo"></img>
+                alt="hotel_unirea_icon"></img>
             </a>
-            <LiveConference
+            {/* <LiveConference
               href="https://uaic.webex.com/uaic/j.php?MTID=mf6f55be9cf297eba70a1a0dcdbfe1ef9"
               target="_blank"
               rel="noopener noreferrer"
             >
               Join Live Conference
-            </LiveConference>
+            </LiveConference> */}
           </div>
         </div>
       </Intro>
