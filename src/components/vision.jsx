@@ -58,7 +58,7 @@ export const Vision = (props) => {
   return (
     <VisionContainer>
       <VisionAnchor id="vision"></VisionAnchor>
-      <Title>Vision</Title>
+      <Title>Welcome to ECODAM 2025!</Title>
       
       <Item>The Faculty of Computer Science at Alexandru Ioan Cuza University of Iași is pleased to welcome participants to the 2025 edition of the Doctoral Summer School in Evolutionary Computing, Optimisation and Data Mining (ECODAM). Since its inaugural edition in 2005, ECODAM has grown into a significant academic event, bringing together yearly doctoral students from Romania, Republic of Moldova and Ukraine, and distinguished academics from across the world. </Item>
       <Item>Over the course of 17 successful editions, the summer school has served as a platform for advanced study, collaboration, and the exchange of ideas in key areas of Computer Science. In its <StrongText>20th year</StrongText>, ECODAM continues to evolve. This edition embraces new and influential fields such as Bioinformatics and Natural Language Processing, reflecting the broader transformations taking place within Computer Science.</Item>

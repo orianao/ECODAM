@@ -77,6 +77,13 @@ const iframeHtml = `
   ></iframe>
 `;
 
+const CampusMap = styled.img`
+    width: 500px;
+    height: 650px;
+    transition: transform 0.3s;
+    object-fit: contain;
+    margin-top: -50px;
+`;
 export const Contact = () => {
   return (
     <div>
@@ -97,6 +104,7 @@ export const Contact = () => {
               <ContactText>summer-school@info.uaic.ro</ContactText>
             </ContactItem>
           </div>
+          <CampusMap src={process.env.PUBLIC_URL + "/img/logos/map_univ_eng.jpg"} />
         </Container>
       </Section>
       <IframeContainer dangerouslySetInnerHTML={{ __html: iframeHtml }}></IframeContainer>

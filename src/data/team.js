@@ -124,4 +124,12 @@ export const volunteers = [
     role: "Volunteer",
     school: "Alexandru Ioan Cuza University of Iaşi, Romania"
   },  
+  {
+    // image: "https://media.licdn.com/dms/image/D4D03AQHKUg-0vdM-9w/profile-displayphoto-shrink_800_800/0/1676912445857?e=1721865600&v=beta&t=hMYy9GUGz4LXMNTgGvaMm4anGcnPmADkeE_dj6-wReg",
+    image: "",
+    firstName: "Sergiu",
+    lastName: "Amihaesei",
+    role: "Volunteer",
+    school: "Alexandru Ioan Cuza University of Iaşi, Romania"
+  },  
 ]
